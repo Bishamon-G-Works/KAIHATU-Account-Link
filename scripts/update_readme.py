@@ -1,154 +1,122 @@
 # -*- coding: utf-8 -*-
 """
-部署リポジトリ監視ダッシュボード - README更新スクリプト
+GitHubアカウント監視ダッシュボード - README更新スクリプト
 
-repo_status.json の情報を元に、config.py の DASHBOARD_ENTRIES に従って
-Markdownテーブルを生成し、README.md を更新する。
+既存のREADME.mdから「リポジトリ」「LINK」「概要」列を読み取り（保持）、
+「ステータス」「最終コミット」「更新時刻」「コミットID」列のみ自動更新する。
 
-使用方法:
-    python scripts/update_readme.py
+■ 直接編集できる列（自動更新で上書きされない）
+  - リポジトリ  : 表示名
+  - LINK        : GitHubリポジトリへのリンク
+  - 概要        : 各自が自由に記載
+
+■ 自動更新される列
+  - ステータス  : ✅ or ❌
+  - 最終コミット: コミットメッセージ（先頭1行）
+  - 更新時刻    : コミット日時（JST）
+  - コミットID  : ハッシュ（先頭7文字）
 """
 
 import json
 import os
+import re
 import sys
 from datetime import datetime, timezone, timedelta
 
-# 同ディレクトリのconfig.pyをインポート
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from config import DASHBOARD_ENTRIES, STATUS_FILE, get_repo_url
+from config import STATUS_FILE
 
-# 日本標準時（UTC+9）
 JST = timezone(timedelta(hours=9))
+
+# READMEのパス（scriptsの親 = リポジトリルート）
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+README_PATH = os.path.join(REPO_ROOT, "README.md")
 
 
 def load_status_data():
-    """
-    repo_status.json を読み込む。
-
-    Returns:
-        dict: ステータスデータ。ファイルが存在しない場合は空のデフォルト値
-    """
-    status_file_path = os.path.join(
-        os.path.dirname(os.path.abspath(__file__)),
-        os.path.basename(STATUS_FILE),
-    )
-
-    if not os.path.exists(status_file_path):
-        print(f"警告: {status_file_path} が見つかりません。空のステータスで生成します。")
+    """repo_status.json を読み込む"""
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                        os.path.basename(STATUS_FILE))
+    if not os.path.exists(path):
+        print(f"警告: {path} が見つかりません。空のステータスで生成します。")
         return {"timestamp": "—", "repos": {}}
-
     try:
-        with open(status_file_path, "r", encoding="utf-8") as f:
+        with open(path, "r", encoding="utf-8") as f:
             return json.load(f)
     except (json.JSONDecodeError, IOError) as e:
-        print(f"エラー: ステータスファイルの読み込みに失敗: {e}")
+        print(f"エラー: {e}")
         return {"timestamp": "—", "repos": {}}
 
 
-def escape_markdown(text):
-    """
-    Markdownテーブル内で問題になる文字をエスケープする。
+def extract_repo_from_url(url):
+    """GitHub URL から owner/repo を抽出する"""
+    m = re.search(r'github\.com/([^/#\s]+/[^/#\s]+)', url)
+    return m.group(1) if m else None
 
-    Args:
-        text: エスケープ対象の文字列
+
+def parse_existing_rows(readme_path):
+    """
+    既存のREADMEからテーブル行を解析する。
 
     Returns:
-        str: エスケープ済み文字列
+        list[dict]: 各行の display / link_cell / description / repo
     """
-    if not text:
-        return ""
-    # パイプ文字をエスケープ
-    return str(text).replace("|", "\\|")
+    if not os.path.exists(readme_path):
+        return []
 
+    with open(readme_path, "r", encoding="utf-8") as f:
+        content = f.read()
 
-def generate_section_table(section, status_data):
-    """
-    1つのセクション（開発グループ or 個人アカウント）のMarkdownテーブルを生成する。
+    rows = []
+    in_table = False
+    skip_align = False
 
-    Args:
-        section: DASHBOARD_ENTRIES の1セクション辞書
-        status_data: repo_status.json の内容
-
-    Returns:
-        str: Markdownテーブル文字列
-    """
-    repos_data = status_data.get("repos", {})
-    header_cols = section["header_cols"]
-    rows = section["rows"]
-
-    lines = []
-
-    # ヘッダー行
-    header_line = "| " + " | ".join(header_cols) + " |"
-    # アライメント行（ステータス列は中央揃え）
-    align_parts = []
-    for col in header_cols:
-        if col == "ステータス":
-            align_parts.append(":---:")
-        else:
-            align_parts.append(":---")
-    align_line = "| " + " | ".join(align_parts) + " |"
-
-    lines.append(header_line)
-    lines.append(align_line)
-
-    # データ行
-    for row in rows:
-        repo = row.get("repo")
-        display = escape_markdown(row.get("display", ""))
-        description = escape_markdown(row.get("description", ""))
-
-        if repo:
-            # 監視対象リポジトリ
-            repo_url = get_repo_url(repo)
-            link_cell = f"[🔗]({repo_url})"
-
-            # ステータスデータから情報を取得
-            repo_status = repos_data.get(repo, {})
-            status = repo_status.get("status", "❓")
-            message = escape_markdown(repo_status.get("message", "—"))
-            date = repo_status.get("date", "—")
-            sha_short = repo_status.get("sha_short", "—")
-            commit_url = repo_status.get("commit_url", "#")
-
-            # コミットIDはリンク化（ハッシュが有効な場合）
-            if sha_short and sha_short != "—":
-                commit_id_cell = f"[{sha_short}]({commit_url})"
+    for line in content.split("\n"):
+        # ヘッダー行を検出
+        if "| リポジトリ |" in line and "| LINK |" in line:
+            in_table = True
+            skip_align = True
+            continue
+        # アライメント行をスキップ
+        if skip_align:
+            skip_align = False
+            continue
+        # テーブル行を処理
+        if in_table:
+            if line.startswith("|"):
+                cells = [c.strip() for c in line.split("|")[1:-1]]
+                if len(cells) >= 3:
+                    display = cells[0]
+                    link_cell = cells[1]
+                    description = cells[2]
+                    url_m = re.search(r'\((.*?)\)', link_cell)
+                    url = url_m.group(1) if url_m else "#"
+                    repo = extract_repo_from_url(url)
+                    rows.append({
+                        "display": display,
+                        "link_cell": link_cell,
+                        "description": description,
+                        "repo": repo,
+                    })
             else:
-                commit_id_cell = "—"
+                in_table = False
 
-            data_line = (
-                f"| {display} | {link_cell} | {description} "
-                f"| {status} | {message} | {date} | {commit_id_cell} |"
-            )
-        else:
-            # 監視対象外（repo が None）
-            link_cell = "[🔗](#)"
-            data_line = (
-                f"| {display} | {link_cell} | {description} "
-                f"| — | — | — | — |"
-            )
-
-        lines.append(data_line)
-
-    return "\n".join(lines)
+    return rows
 
 
-def generate_readme(status_data):
+def generate_readme(status_data, readme_path):
     """
-    README.md 全体のMarkdownを生成する。
-
-    Args:
-        status_data: repo_status.json の内容
-
-    Returns:
-        str: README.md の全文
+    README.md を生成する。
+    リポジトリ・LINK・概要は既存READMEから引き継ぎ、
+    ステータス系列のみ status_data で更新する。
     """
     timestamp = status_data.get("timestamp", "—")
     success = status_data.get("success_count", 0)
     error = status_data.get("error_count", 0)
     total = status_data.get("total_repos", 0)
+    repos_data = status_data.get("repos", {})
+
+    rows = parse_existing_rows(readme_path)
 
     parts = []
 
@@ -159,11 +127,37 @@ def generate_readme(status_data):
     parts.append(f"🔄 **最終チェック**: {timestamp} (JST) — "
                  f"取得 ✅{success} ❌{error} / {total}件\n")
 
-    # 各セクションのテーブルを生成
-    for section in DASHBOARD_ENTRIES:
-        table = generate_section_table(section, status_data)
-        parts.append(table)
-        parts.append("")  # セクション間の空行
+    # テーブルヘッダー
+    parts.append("| リポジトリ | LINK | 概要 | ステータス | 最終コミット | 更新時刻 | コミットID |")
+    parts.append("| :--- | :--- | :--- | :---: | :--- | :--- | :--- |")
+
+    # データ行（リポジトリ・LINK・概要は既存から保持）
+    for row in rows:
+        display = row["display"]
+        link_cell = row["link_cell"]
+        description = row["description"]
+        repo = row["repo"]
+
+        if repo and repo in repos_data:
+            s = repos_data[repo]
+            status = s.get("status", "❓")
+            message = s.get("message", "—").replace("|", "\\|")
+            date = s.get("date", "—")
+            sha = s.get("sha_short", "—")
+            commit_url = s.get("commit_url", "#")
+            commit_id = f"[{sha}]({commit_url})" if sha and sha != "—" else "—"
+        else:
+            status = "—"
+            message = "—"
+            date = "—"
+            commit_id = "—"
+
+        parts.append(
+            f"| {display} | {link_cell} | {description} "
+            f"| {status} | {message} | {date} | {commit_id} |"
+        )
+
+    parts.append("")
 
     # 凡例
     parts.append("## 凡例\n")
@@ -175,36 +169,23 @@ def generate_readme(status_data):
     # フッター
     parts.append("---\n")
     parts.append("*このREADMEは自動生成されています。10分ごとに更新されます。*\n")
+    parts.append("> ✏️ **直接編集可能**: リポジトリ名・LINK・概要 の各列は自動更新で上書きされません。\n")
 
     return "\n".join(parts)
 
 
 def main():
-    """メイン処理: README.md を生成して上書き保存"""
-    print("📝 README.md の生成を開始します...")
+    print("📝 README.md の更新を開始します...")
 
-    # ステータスデータ読み込み
     status_data = load_status_data()
-    timestamp = status_data.get("timestamp", "—")
-    print(f"  データタイムスタンプ: {timestamp}")
+    print(f"  データタイムスタンプ: {status_data.get('timestamp', '—')}")
 
-    # README生成
-    readme_content = generate_readme(status_data)
+    readme_content = generate_readme(status_data, README_PATH)
 
-    # README.md に書き出し（リポジトリルートに配置）
-    # スクリプトの親ディレクトリ = scripts/ → その親 = リポジトリルート
-    repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    readme_path = os.path.join(repo_root, "README.md")
-
-    with open(readme_path, "w", encoding="utf-8") as f:
+    with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(readme_content)
 
-    print(f"  ✅ README.md を更新しました: {readme_path}")
-    print(f"  📊 テーブル: {len(DASHBOARD_ENTRIES)} セクション")
-
-    # テーブル行数をカウント
-    total_rows = sum(len(s["rows"]) for s in DASHBOARD_ENTRIES)
-    print(f"  📋 テーブル行: {total_rows} 行")
+    print(f"  ✅ README.md を更新しました")
 
 
 if __name__ == "__main__":
