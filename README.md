@@ -4,15 +4,10 @@
 
 | アカウント | リポジトリ | LINK | ステータス | 最終コミット | 更新時刻 | コミットID |
 | :--- | :--- | :--- | :---: | :--- | :--- | :--- |
+| 山崎部長 | FPL-2026 | [🔗](https://github.com/Bishamon-G/FPL-2026) | — | — | — | — |
 | 開発グループ | Dev-Meeting（開発ミーティング議事録） | [🔗](https://github.com/Bishamon-Dev-Group/Dev-Meeting) | — | — | — | — |
 | 開発グループ | KAIHATU-Account-Link（アカウント連携） | [🔗](https://github.com/Bishamon-Dev-Group/KAIHATU-Account-Link) | — | — | — | — |
-| 開発グループ |  |  | — | — | — | — |
-| 開発グループ |  |  | — | — | — | — |
-
-| アカウント | 代表リポジトリ | LINK | ステータス | 最終コミット | 更新時刻 | コミットID |
-| :--- | :--- | :--- | :---: | :--- | :--- | :--- |
-| 山崎部長 | FPL-2026 | [🔗](https://github.com/Yamazaki-27/FPL-2026) | — | — | — | — |
-| 廣田GM | matehan-toku-kai-ana | [🔗](https://github.com/HIROTA-KAZUHISA/matehan-toku-kai-ana) | — | — | — | — |
+| 廣田GM | matehan-toku-kai-ana | [🔗](https://github.com/Bishamon-Dev-Group/matehan-toku-kai-ana) | — | — | — | — |
 | メンバーA | ＊＊＊ | [🔗](#) | — | — | — | — |
 | メンバーB | ＊＊＊ | [🔗](#) | — | — | — | — |
 | メンバーC | ＊＊＊ | [🔗](#) | — | — | — | — |

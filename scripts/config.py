@@ -21,12 +21,17 @@ GitHubアカウント監視ダッシュボード - 設定ファイル
 # "header_cols" でそのセクションのヘッダー列名を定義します。
 
 DASHBOARD_ENTRIES = [
-    # === 開発グループ ===
+    # === アカウント一覧 ===
     {
-        "section": "開発グループ",
+        "section": "アカウント一覧",
         "header_cols": ["アカウント", "リポジトリ", "LINK",
                         "ステータス", "最終コミット", "更新時刻", "コミットID"],
         "rows": [
+            {
+                "account": "山崎部長",
+                "display": "FPL-2026",
+                "repo": "Bishamon-G/FPL-2026",
+            },
             {
                 "account": "開発グループ",
                 "display": "Dev-Meeting（開発ミーティング議事録）",
@@ -37,36 +42,12 @@ DASHBOARD_ENTRIES = [
                 "display": "KAIHATU-Account-Link（アカウント連携）",
                 "repo": "Bishamon-Dev-Group/KAIHATU-Account-Link",
             },
-            # フレーム（将来の追加用スロット）
-            {
-                "account": "開発グループ",
-                "display": "",
-                "repo": None,
-            },
-            {
-                "account": "開発グループ",
-                "display": "",
-                "repo": None,
-            },
-        ],
-    },
-    # === 個人アカウント ===
-    {
-        "section": "個人アカウント",
-        "header_cols": ["アカウント", "代表リポジトリ", "LINK",
-                        "ステータス", "最終コミット", "更新時刻", "コミットID"],
-        "rows": [
-            {
-                "account": "山崎部長",
-                "display": "FPL-2026",
-                "repo": "Yamazaki-27/FPL-2026",
-            },
             {
                 "account": "廣田GM",
                 "display": "matehan-toku-kai-ana",
-                "repo": "HIROTA-KAZUHISA/matehan-toku-kai-ana",
+                "repo": "Bishamon-Dev-Group/matehan-toku-kai-ana",
             },
-            # フレーム（メンバー追加用スロット）
+            # フレーム（追加用スロット）
             {
                 "account": "メンバーA",
                 "display": "＊＊＊",
