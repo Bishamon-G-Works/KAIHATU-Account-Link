@@ -96,8 +96,8 @@ def generate_section_table(section, status_data):
     # データ行
     for row in rows:
         repo = row.get("repo")
-        account = escape_markdown(row.get("account", ""))
         display = escape_markdown(row.get("display", ""))
+        description = escape_markdown(row.get("description", ""))
 
         if repo:
             # 監視対象リポジトリ
@@ -119,21 +119,16 @@ def generate_section_table(section, status_data):
                 commit_id_cell = "—"
 
             data_line = (
-                f"| {account} | {display} | {link_cell} "
+                f"| {display} | {link_cell} | {description} "
                 f"| {status} | {message} | {date} | {commit_id_cell} |"
             )
         else:
             # 監視対象外（repo が None）
-            if display:
-                # 表示名がある場合（廣田GMの「＊＊＊」など）
-                link_cell = "[🔗](#)"
-                data_line = (
-                    f"| {account} | {display} | {link_cell} "
-                    f"| — | — | — | — |"
-                )
-            else:
-                # 空行（将来の追加用スロット）
-                data_line = f"| {account} |  |  | — | — | — | — |"
+            link_cell = "[🔗](#)"
+            data_line = (
+                f"| {display} | {link_cell} | {description} "
+                f"| — | — | — | — |"
+            )
 
         lines.append(data_line)
 
@@ -158,7 +153,7 @@ def generate_readme(status_data):
     parts = []
 
     # タイトル
-    parts.append("# 🔗 スギヤス開発GitHubアカウント一覧\n")
+    parts.append("# 🔗 GitHubアカウント一覧\n")
 
     # 最終更新タイムスタンプ
     parts.append(f"🔄 **最終チェック**: {timestamp} (JST) — "

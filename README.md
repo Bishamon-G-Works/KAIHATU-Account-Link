@@ -2,15 +2,15 @@
 
 🔄 **最終チェック**: — (JST) — 初期設定中
 
-| アカウント | リポジトリ | LINK | ステータス | 最終コミット | 更新時刻 | コミットID |
+| リポジトリ | LINK | 概要 | ステータス | 最終コミット | 更新時刻 | コミットID |
 | :--- | :--- | :--- | :---: | :--- | :--- | :--- |
-| 山崎部長 | FPL-2026 | [🔗](https://github.com/Bishamon-G/FPL-2026) | — | — | — | — |
-| 開発グループ | Dev-Meeting（開発ミーティング議事録） | [🔗](https://github.com/Bishamon-Dev-Group/Dev-Meeting) | — | — | — | — |
-| 開発グループ | KAIHATU-Account-Link（アカウント連携） | [🔗](https://github.com/Bishamon-Dev-Group/KAIHATU-Account-Link) | — | — | — | — |
-| 廣田GM | matehan-toku-kai-ana | [🔗](https://github.com/Bishamon-Dev-Group/matehan-toku-kai-ana) | — | — | — | — |
-| メンバーA | ＊＊＊ | [🔗](#) | — | — | — | — |
-| メンバーB | ＊＊＊ | [🔗](#) | — | — | — | — |
-| メンバーC | ＊＊＊ | [🔗](#) | — | — | — | — |
+| FPL-2026 | [🔗](https://github.com/Bishamon-G/FPL-2026) |  | — | — | — | — |
+| Dev-Meeting（開発ミーティング議事録） | [🔗](https://github.com/Bishamon-Dev-Group/Dev-Meeting) |  | — | — | — | — |
+| KAIHATU-Account-Link（アカウント連携） | [🔗](https://github.com/Bishamon-Dev-Group/KAIHATU-Account-Link) |  | — | — | — | — |
+| matehan-toku-kai-ana | [🔗](https://github.com/Bishamon-Dev-Group/matehan-toku-kai-ana) |  | — | — | — | — |
+| ＊＊＊ | [🔗](#) |  | — | — | — | — |
+| ＊＊＊ | [🔗](#) |  | — | — | — | — |
+| ＊＊＊ | [🔗](#) |  | — | — | — | — |
 
 ## 凡例
 

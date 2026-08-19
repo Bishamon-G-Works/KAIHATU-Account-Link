@@ -24,44 +24,44 @@ DASHBOARD_ENTRIES = [
     # === アカウント一覧 ===
     {
         "section": "アカウント一覧",
-        "header_cols": ["アカウント", "リポジトリ", "LINK",
+        "header_cols": ["リポジトリ", "LINK", "概要",
                         "ステータス", "最終コミット", "更新時刻", "コミットID"],
         "rows": [
             {
-                "account": "山崎部長",
                 "display": "FPL-2026",
                 "repo": "Bishamon-G/FPL-2026",
+                "description": "",  # 各自で記載
             },
             {
-                "account": "開発グループ",
                 "display": "Dev-Meeting（開発ミーティング議事録）",
                 "repo": "Bishamon-Dev-Group/Dev-Meeting",
+                "description": "",  # 各自で記載
             },
             {
-                "account": "開発グループ",
                 "display": "KAIHATU-Account-Link（アカウント連携）",
                 "repo": "Bishamon-Dev-Group/KAIHATU-Account-Link",
+                "description": "",  # 各自で記載
             },
             {
-                "account": "廣田GM",
                 "display": "matehan-toku-kai-ana",
                 "repo": "Bishamon-Dev-Group/matehan-toku-kai-ana",
+                "description": "",  # 各自で記載
             },
             # フレーム（追加用スロット）
             {
-                "account": "メンバーA",
                 "display": "＊＊＊",
-                "repo": None,  # GitHubユーザー名判明後に設定
+                "repo": None,
+                "description": "",
             },
             {
-                "account": "メンバーB",
                 "display": "＊＊＊",
-                "repo": None,  # GitHubユーザー名判明後に設定
+                "repo": None,
+                "description": "",
             },
             {
-                "account": "メンバーC",
                 "display": "＊＊＊",
-                "repo": None,  # GitHubユーザー名判明後に設定
+                "repo": None,
+                "description": "",
             },
         ],
     },
