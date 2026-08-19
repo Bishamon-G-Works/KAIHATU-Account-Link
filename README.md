@@ -9,7 +9,7 @@
 | Schedule | [🔗](https://github.com/Bishamon-Dev-Group/Schedule) |  | デモ動画を追加 | 2026-08-18 14:07 | ✅ |
 | Core-Tec-R-D-KAIZEN | [🔗](https://github.com/Bishamon-Dev-Group/Core-Tec-R-D-KAIZEN) |  | Clarify repository purpose in README | 2026-07-03 12:22 | ✅ |
 | Dev-Meeting（開発ミーティング議事録） | [🔗](https://github.com/Bishamon-Dev-Group/Dev-Meeting) |  | Update meeting notes with adjustments and feedback HIROTA | 2026-08-17 10:40 | ✅ |
-| matehan-toku-kai-ana | [🔗](https://github.com/Bishamon-Dev-Group/matehan-toku-kai-ana) |  | HTTPエラー (不明) | — | ❌ |
+| matehan-toku-kai-ana |[🔗](https://github.com/HIROTA-KAZUHISA/matehan-toku-kai-ana)|  | HTTPエラー (不明) | — | ❌ |
 | ＊＊＊ | [🔗](#) |  |  |  |  |
 | ＊＊＊ | [🔗](#) |  |  |  |  |
 | ＊＊＊ | [🔗](#) |  |  |  |  |
