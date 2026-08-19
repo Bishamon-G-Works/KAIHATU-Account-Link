@@ -144,9 +144,9 @@ def generate_readme(status_data, readme_path):
             message = s.get("message", "—").replace("|", "\\|")
             date = s.get("date", "—")
         else:
-            status = "—"
-            message = "—"
-            date = "—"
+            status = ""
+            message = ""
+            date = ""
 
         parts.append(
             f"| {display} | {link_cell} | {description} "
