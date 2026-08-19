@@ -128,8 +128,8 @@ def generate_readme(status_data, readme_path):
                  f"取得 ✅{success} ❌{error} / {total}件\n")
 
     # テーブルヘッダー
-    parts.append("| リポジトリ | LINK | 概要 | ステータス | 最終コミット | 更新時刻 | コミットID |")
-    parts.append("| :--- | :--- | :--- | :---: | :--- | :--- | :--- |")
+    parts.append("| リポジトリ | LINK | 概要 | 最終コミット | 更新時刻 | ステータス |")
+    parts.append("| :--- | :--- | :--- | :--- | :--- | :---: |")
 
     # データ行（リポジトリ・LINK・概要は既存から保持）
     for row in rows:
@@ -143,18 +143,14 @@ def generate_readme(status_data, readme_path):
             status = s.get("status", "❓")
             message = s.get("message", "—").replace("|", "\\|")
             date = s.get("date", "—")
-            sha = s.get("sha_short", "—")
-            commit_url = s.get("commit_url", "#")
-            commit_id = f"[{sha}]({commit_url})" if sha and sha != "—" else "—"
         else:
             status = "—"
             message = "—"
             date = "—"
-            commit_id = "—"
 
         parts.append(
             f"| {display} | {link_cell} | {description} "
-            f"| {status} | {message} | {date} | {commit_id} |"
+            f"| {message} | {date} | {status} |"
         )
 
     parts.append("")
@@ -163,8 +159,7 @@ def generate_readme(status_data, readme_path):
     parts.append("## 凡例\n")
     parts.append("- ✅ : 正常に取得完了")
     parts.append("- ❌ : 取得エラー")
-    parts.append("- — : 監視対象外 / 未設定")
-    parts.append("- コミットID: 最新コミットのハッシュ（先頭7文字、クリックで詳細へ）\n")
+    parts.append("- — : 監視対象外 / 未設定\n")
 
     # フッター
     parts.append("---\n")
