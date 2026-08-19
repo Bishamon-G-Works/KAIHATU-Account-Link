@@ -1,0 +1,40 @@
+name: 📊 リポジトリ状態更新
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'  # 10分ごとに実行
+  workflow_dispatch:          # 手動実行のトリガー
+
+permissions:
+  contents: write
+
+jobs:
+  update-status:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch repository updates
+        run: python scripts/fetch_updates.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+
+      - name: Update README.md
+        run: python scripts/update_readme.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          # 変更がある場合のみコミットしてプッシュ
+          git diff --cached --quiet || (git commit -m "📊 リポジトリ状態を自動更新" && git push)
