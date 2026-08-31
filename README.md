@@ -1,6 +1,6 @@
 # 🔗 GitHubアカウント一覧
 
-🔄 **最終チェック**: 2026-08-31 20:40 (JST) — 取得 ✅6 ❌0 / 6件
+🔄 **最終チェック**: 2026-08-31 20:57 (JST) — 取得 ✅6 ❌0 / 6件
 
 | リポジトリ | LINK | 概要 | 最終コミット | 更新時刻 | ステータス |
 | :--- | :--- | :--- | :--- | :--- | :---: |
@@ -10,7 +10,7 @@
 | Core-Tec-R-D-KAIZEN | [🔗](https://github.com/Bishamon-Dev-Group/Core-Tec-R-D-KAIZEN) | 要素技術開発 | Clarify repository purpose in README | 2026-07-03 12:22 | ✅ |
 | Dev-Meeting | [🔗](https://github.com/Bishamon-Dev-Group/Dev-Meeting) | 開発ミーティング議事録 | Update meeting notes with adjustments and feedback HIROTA | 2026-08-17 10:40 | ✅ |
 | matehan-toku-kai-ana | [🔗](https://github.com/HIROTA-KAZUHISA/matehan-toku-kai-ana) |  | Remove analysis report for 8/1(MON) | 2026-08-05 07:56 | ✅ |
-| Lojis-Tech-Tokyo-2026 | [🔗](https://github.com/Bishamon-G-Works/Lojis-Tech-Tokyo-2026) |  | Add electric pallet truck document (as-is) | 2026-08-31 20:40 | ✅ |
+| Lojis-Tech-Tokyo-2026 | [🔗](https://github.com/Bishamon-G-Works/Lojis-Tech-Tokyo-2026) |  | Add link to electric pallet truck document | 2026-08-31 20:40 | ✅ |
 | ＊＊＊ | [🔗](#) |  |  |  |  |
 | ＊＊＊ | [🔗](#) |  |  |  |  |
 
