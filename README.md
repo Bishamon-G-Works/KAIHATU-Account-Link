@@ -1,11 +1,11 @@
 # 🔗 GitHubアカウント一覧
 
-🔄 **最終チェック**: 2026-09-02 16:01 (JST) — 取得 ✅6 ❌0 / 6件
+🔄 **最終チェック**: 2026-09-02 16:24 (JST) — 取得 ✅6 ❌0 / 6件
 
 | リポジトリ | LINK | 概要 | 最終コミット | 更新時刻 | ステータス |
 | :--- | :--- | :--- | :--- | :--- | :---: |
 |  |  |  |  |  |  |
-| **FPL-2026** | [🔗](https://github.com/Yamazaki-27/FPL-2026) | FUTURE PRODUCT LAB | 20260902 成果物リンクの表を製品ごとの1行に整理 | 2026-09-02 15:59 | ✅ |
+| **FPL-2026** | [🔗](https://github.com/Yamazaki-27/FPL-2026) | FUTURE PRODUCT LAB | 20260902 安藤・澁谷法律事務所 訪問レポートと、指示警告の欠陥のナレッジを追加 | 2026-09-02 16:02 | ✅ |
 | Schedule | [🔗](https://github.com/Bishamon-Dev-Group/Schedule) | 開発スケジュール | デモ動画を追加 | 2026-08-18 14:07 | ✅ |
 | Core-Tec-R-D-KAIZEN | [🔗](https://github.com/Bishamon-Dev-Group/Core-Tec-R-D-KAIZEN) | 要素技術開発 | Clarify repository purpose in README | 2026-07-03 12:22 | ✅ |
 | Dev-Meeting | [🔗](https://github.com/Bishamon-Dev-Group/Dev-Meeting) | 開発ミーティング議事録 | Update meeting notes with adjustments and feedback HIROTA | 2026-08-17 10:40 | ✅ |
