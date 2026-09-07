@@ -1,11 +1,11 @@
 # 🔗 GitHubアカウント一覧
 
-🔄 **最終チェック**: 2026-09-07 14:32 (JST) — 取得 ✅6 ❌0 / 6件
+🔄 **最終チェック**: 2026-09-07 14:51 (JST) — 取得 ✅6 ❌0 / 6件
 
 | リポジトリ | LINK | 概要 | 最終コミット | 更新時刻 | ステータス |
 | :--- | :--- | :--- | :--- | :--- | :---: |
 |  |  |  |  |  |  |
-| **FPL-2026** | [🔗](https://github.com/Yamazaki-27/FPL-2026) | FUTURE PRODUCT LAB | 20260907 検図の記録を KnowledgeBase/Kenzu/ に新設、照合項目(6)可動部の干渉確認を追加 | 2026-09-07 13:54 | ✅ |
+| **FPL-2026** | [🔗](https://github.com/Yamazaki-27/FPL-2026) | FUTURE PRODUCT LAB | 20260907 S-2996 の検図記録に指摘の全文を収録、.md を正とする運用に変更 | 2026-09-07 14:50 | ✅ |
 | Schedule | [🔗](https://github.com/Bishamon-Dev-Group/Schedule) | 開発スケジュール | デモ動画を追加 | 2026-08-18 14:07 | ✅ |
 | Core-Tec-R-D-KAIZEN | [🔗](https://github.com/Bishamon-Dev-Group/Core-Tec-R-D-KAIZEN) | 要素技術開発 | Clarify repository purpose in README | 2026-07-03 12:22 | ✅ |
 | Dev-Meeting | [🔗](https://github.com/Bishamon-Dev-Group/Dev-Meeting) | 開発ミーティング議事録 | Update 責任者会議図面電子化の件.md | 2026-09-03 13:44 | ✅ |
