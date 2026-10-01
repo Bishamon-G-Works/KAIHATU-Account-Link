@@ -1,11 +1,11 @@
 # 🔗 GitHubアカウント一覧
 
-🔄 **最終チェック**: 2026-10-01 11:13 (JST) — 取得 ✅6 ❌0 / 6件
+🔄 **最終チェック**: 2026-10-01 18:05 (JST) — 取得 ✅6 ❌0 / 6件
 
 | リポジトリ | LINK | 概要 | 最終コミット | 更新時刻 | ステータス |
 | :--- | :--- | :--- | :--- | :--- | :---: |
 |  |  |  |  |  |  |
-| **FPL-2026** | [🔗](https://github.com/Yamazaki-27/FPL-2026) | FUTURE PRODUCT LAB | カリツーの要約を、解けた［要確認］に合わせて直す | 2026-10-01 08:36 | ✅ |
+| **FPL-2026** | [🔗](https://github.com/Yamazaki-27/FPL-2026) | FUTURE PRODUCT LAB | 横井さんの所属を［要確認］から確定へ ── 情報システム | 2026-10-01 13:03 | ✅ |
 | Schedule | [🔗](https://github.com/Bishamon-Dev-Group/Schedule) | 開発スケジュール | Update README with additional notes and GitHub link | 2026-09-30 11:04 | ✅ |
 | Core-Tec-R-D-KAIZEN | [🔗](https://github.com/Bishamon-Dev-Group/Core-Tec-R-D-KAIZEN) | 要素技術開発 | Clarify repository purpose in README | 2026-07-03 12:22 | ✅ |
 | Dev-Meeting | [🔗](https://github.com/Bishamon-Dev-Group/Dev-Meeting) | 開発ミーティング議事録 | Update 責任者会議図面電子化の件.md | 2026-09-03 13:44 | ✅ |
