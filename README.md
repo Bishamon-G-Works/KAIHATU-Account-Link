@@ -1,11 +1,11 @@
 # 🔗 GitHubアカウント一覧
 
-🔄 **最終チェック**: 2026-10-09 07:27 (JST) — 取得 ✅6 ❌0 / 6件
+🔄 **最終チェック**: 2026-10-09 11:29 (JST) — 取得 ✅6 ❌0 / 6件
 
 | リポジトリ | LINK | 概要 | 最終コミット | 更新時刻 | ステータス |
 | :--- | :--- | :--- | :--- | :--- | :---: |
 |  |  |  |  |  |  |
-| **FPL-2026** | [🔗](https://github.com/Yamazaki-27/FPL-2026) | FUTURE PRODUCT LAB | 九州出張: ダイジェスト動画（YouTube）のリンクと動画ガイドを追加 | 2026-10-08 10:49 | ✅ |
+| **FPL-2026** | [🔗](https://github.com/Yamazaki-27/FPL-2026) | FUTURE PRODUCT LAB | 出張ダイジェスト動画のSkillを追加、九州出張の動画ガイドを完成版に更新 | 2026-10-09 11:17 | ✅ |
 | Schedule | [🔗](https://github.com/Bishamon-Dev-Group/Schedule) | 開発スケジュール | Update README with additional notes and GitHub link | 2026-09-30 11:04 | ✅ |
 | Core-Tec-R-D-KAIZEN | [🔗](https://github.com/Bishamon-Dev-Group/Core-Tec-R-D-KAIZEN) | 要素技術開発 | Clarify repository purpose in README | 2026-07-03 12:22 | ✅ |
 | Dev-Meeting | [🔗](https://github.com/Bishamon-Dev-Group/Dev-Meeting) | 開発ミーティング議事録 | Update 責任者会議図面電子化の件.md | 2026-09-03 13:44 | ✅ |
