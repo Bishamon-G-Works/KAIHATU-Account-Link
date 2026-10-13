@@ -1,12 +1,12 @@
 # 🔗 GitHubアカウント一覧
 
-🔄 **最終チェック**: 2026-10-13 11:31 (JST) — 取得 ✅6 ❌0 / 6件
+🔄 **最終チェック**: 2026-10-13 16:01 (JST) — 取得 ✅6 ❌0 / 6件
 
 | リポジトリ | LINK | 概要 | 最終コミット | 更新時刻 | ステータス |
 | :--- | :--- | :--- | :--- | :--- | :---: |
 |  |  |  |  |  |  |
-| **FPL-2026** | [🔗](https://github.com/Yamazaki-27/FPL-2026) | FUTURE PRODUCT LAB | NSA40: 本文中の<S>が取り消し線タグとして解釈され、後続の節が打ち消されていた。全角の＜S＞に直す | 2026-10-13 09:13 | ✅ |
-| 開発進捗ボード | [🔗](https://github.com/Bishamon-G/devboard) | 開発進捗ボード | ボードを更新（2026-10-13 10:02） | 2026-10-13 10:02 | ✅ |
+| **FPL-2026** | [🔗](https://github.com/Yamazaki-27/FPL-2026) | FUTURE PRODUCT LAB | 20261013 ASC40WU/ASC40W 仕様図・基礎図のAI検図記録を追加 | 2026-10-13 13:27 | ✅ |
+| 開発進捗ボード | [🔗](https://github.com/Bishamon-G/devboard) | 開発進捗ボード | ボードを更新（2026-10-13 11:46） | 2026-10-13 11:46 | ✅ |
 | Core-Tec-R-D-KAIZEN | [🔗](https://github.com/Bishamon-Dev-Group/Core-Tec-R-D-KAIZEN) | 要素技術開発 | Clarify repository purpose in README | 2026-07-03 12:22 | ✅ |
 | Dev-Meeting | [🔗](https://github.com/Bishamon-Dev-Group/Dev-Meeting) | 開発ミーティング議事録 | Update 責任者会議図面電子化の件.md | 2026-09-03 13:44 | ✅ |
 | matehan-toku-kai-ana | [🔗](https://github.com/HIROTA-KAZUHISA/matehan-toku-kai-ana) |  | Remove analysis report for 8/1(MON) | 2026-08-05 07:56 | ✅ |
