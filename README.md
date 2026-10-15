@@ -6,7 +6,7 @@
 | :--- | :--- | :--- | :--- | :--- | :---: |
 |  |  |  |  |  |  |
 | **FPL-2026** | [🔗](https://github.com/Yamazaki-27/FPL-2026) | FUTURE PRODUCT LAB | MODEX/Waymoショート動画のリンクを追記・StarUpdateの不具合修正・ProMat 2027の事前ブリー… | 2026-10-15 13:53 | ✅ |
-| 開発進捗ボード | [🔗](https://github.com/Bishamon-G/devboard) | 開発進捗ボード | ボードを更新（2026-10-15 07:38） | 2026-10-15 07:38 | ✅ |
+| 開発進捗ボード | [🔗](https://github.com/Bishamon-G-Works/devboard) | 開発進捗ボード | ボードを更新（2026-10-15 07:38） | 2026-10-15 07:38 | ✅ |
 | Core-Tec-R-D-KAIZEN | [🔗](https://github.com/Bishamon-Dev-Group/Core-Tec-R-D-KAIZEN) | 要素技術開発 | Clarify repository purpose in README | 2026-07-03 12:22 | ✅ |
 | Dev-Meeting | [🔗](https://github.com/Bishamon-Dev-Group/Dev-Meeting) | 開発ミーティング議事録 | Update 責任者会議図面電子化の件.md | 2026-09-03 13:44 | ✅ |
 | matehan-toku-kai-ana | [🔗](https://github.com/HIROTA-KAZUHISA/matehan-toku-kai-ana) |  | Remove analysis report for 8/1(MON) | 2026-08-05 07:56 | ✅ |
