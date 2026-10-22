@@ -1,12 +1,12 @@
 # 🔗 GitHubアカウント一覧
 
-🔄 **最終チェック**: 2026-10-23 05:47 (JST) — 取得 ✅6 ❌0 / 6件
+🔄 **最終チェック**: 2026-10-23 08:41 (JST) — 取得 ✅6 ❌0 / 6件
 
 | リポジトリ | LINK | 概要 | 最終コミット | 更新時刻 | ステータス |
 | :--- | :--- | :--- | :--- | :--- | :---: |
 |  |  |  |  |  |  |
-| **FPL-2026** | [🔗](https://github.com/Yamazaki-27/FPL-2026) | FUTURE PRODUCT LAB | 資産化ログ: 記事へのリンクを見出しのスラッグにする。2026-10-21 分を再生成 | 2026-10-22 08:39 | ✅ |
-| 開発進捗ボード | [🔗](https://github.com/Bishamon-G-Works/devboard) | 開発進捗ボード | ボードを更新（2026-10-19 09:53） | 2026-10-19 09:53 | ✅ |
+| **FPL-2026** | [🔗](https://github.com/Yamazaki-27/FPL-2026) | FUTURE PRODUCT LAB | 日報の資産化ログ: 2026-10-22 分（61件） | 2026-10-23 08:18 | ✅ |
+| 開発進捗ボード | [🔗](https://github.com/Bishamon-G-Works/devboard) | 開発進捗ボード | ボードを更新（2026-10-23 07:31） | 2026-10-23 07:31 | ✅ |
 | Core-Tec-R-D-KAIZEN | [🔗](https://github.com/Bishamon-Dev-Group/Core-Tec-R-D-KAIZEN) | 要素技術開発 | READMEにTWPF-Developのリンクを追加 | 2026-10-20 19:20 | ✅ |
 | Dev-Meeting | [🔗](https://github.com/Bishamon-Dev-Group/Dev-Meeting) | 開発ミーティング議事録 | Update 責任者会議図面電子化の件.md | 2026-09-03 13:44 | ✅ |
 | matehan-toku-kai-ana | [🔗](https://github.com/HIROTA-KAZUHISA/matehan-toku-kai-ana) |  | Remove analysis report for 8/1(MON) | 2026-08-05 07:56 | ✅ |
