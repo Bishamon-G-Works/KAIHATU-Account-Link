@@ -17,6 +17,7 @@
 | ASC40-Develop | [🔗](https://github.com/Bishamon-G-Works/ASC40-Develop) | ASC40開発資料 |  |  |  |
 | NNZ-Develop | [🔗](https://github.com/Bishamon-G-Works/NNZ-Develop) | アルネオ マイナーチェンジ |  |  |  |
 | MUS40-Almt-Dep | [🔗](https://github.com/Fuchida0324/MUS40-Almt-Dep) | アライメントマルチ4t 事前調査 |  |  |  |
+| Image-Recognition | [🔗](https://github.com/Mizuno-b/Image-Recognition) | 画像認識技術（Jetson Orin Nano） |  |  |  |
 
 ## 凡例
 
