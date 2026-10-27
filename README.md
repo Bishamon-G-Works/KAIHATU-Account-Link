@@ -7,8 +7,8 @@
 |  |  |  |  |  |  |
 | **FPL-2026** | [🔗](https://github.com/Yamazaki-27/FPL-2026) | FUTURE PRODUCT LAB | 日報の資産化ログ: 2026-10-26 分（40件） | 2026-10-27 08:41 | ✅ |
 | 開発進捗ボード | [🔗](https://github.com/Bishamon-G-Works/devboard) | 開発進捗ボード | ボードを更新（2026-10-26 23:11） | 2026-10-26 23:11 | ✅ |
-| Core-Tec-R-D-KAIZEN | [🔗](https://github.com/Bishamon-Dev-Group/Core-Tec-R-D-KAIZEN) | 要素技術開発 | READMEにTWPF-Developのリンクを追加 | 2026-10-20 19:20 | ✅ |
-| Dev-Meeting | [🔗](https://github.com/Bishamon-Dev-Group/Dev-Meeting) | 開発ミーティング議事録 | Update 責任者会議図面電子化の件.md | 2026-09-03 13:44 | ✅ |
+| Core-Tec-R-D-KAIZEN | [🔗](https://github.com/Bishamon-G-Works/Core-Tec-R-D-KAIZEN) | 要素技術開発 | READMEにTWPF-Developのリンクを追加 | 2026-10-20 19:20 | ✅ |
+| Dev-Meeting | [🔗](https://github.com/Bishamon-G-Works/Dev-Meeting) | 開発ミーティング議事録 | Update 責任者会議図面電子化の件.md | 2026-09-03 13:44 | ✅ |
 | matehan-toku-kai-ana | [🔗](https://github.com/HIROTA-KAZUHISA/matehan-toku-kai-ana) |  | Move nisshi_analysis out of OneDrive/デスクトップ path | 2026-10-27 07:57 | ✅ |
 | Lojis-Tech-Tokyo-2026 | [🔗](https://github.com/Bishamon-G-Works/Lojis-Tech-Tokyo-2026) |  | Add link to TianyuLux selection document | 2026-09-01 07:46 | ✅ |
 | NSA40-DR | [🔗](https://github.com/Bishamon-G-Works/NSA40-DR) | NSA40 DR資料 |  |  |  |
