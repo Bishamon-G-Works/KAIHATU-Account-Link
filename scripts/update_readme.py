@@ -123,6 +123,9 @@ def generate_readme(status_data, readme_path):
     # タイトル
     parts.append("# 🔗 GitHubアカウント一覧\n")
 
+    # 表の上の注記
+    parts.append("> 📌 各開発テーマは、どこかに統合して（武村TL・前川TLへ）\n")
+
     # 最終更新タイムスタンプ
     parts.append(f"🔄 **最終チェック**: {timestamp} (JST) — "
                  f"取得 ✅{success} ❌{error} / {total}件\n")

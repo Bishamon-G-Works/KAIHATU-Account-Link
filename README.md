@@ -1,16 +1,18 @@
 # 🔗 GitHubアカウント一覧
 
+> 📌 各開発テーマは、どこかに統合して（武村TL・前川TLへ）
+
 🔄 **最終チェック**: 2026-10-28 18:12 (JST) — 取得 ✅14 ❌0 / 14件
 
 | リポジトリ | LINK | 概要 | 最終コミット | 更新時刻 | ステータス |
 | :--- | :--- | :--- | :--- | :--- | :---: |
 |  |  |  |  |  |  |
-| **FPL-2026** | [🔗](https://github.com/Yamazaki-27/FPL-2026) | FUTURE PRODUCT LAB | 検図の着眼: 図面の構成（親子関係）の追加者を磯貝に | 2026-10-28 15:08 | ✅ |
-| 販売・調達分析ツール | [🔗](https://github.com/Bishamon-G-Works/Sales-Procurement-Analytics) | オフコンの販売・調達データ分析（KI類似） | 画面は社内ネットワーク（W550 と同じ 10.150.11.x・192.9.200.x）からだけ開けるようにした | 2026-10-28 18:12 | ✅ |
-| 開発進捗ボード | [🔗](https://github.com/Bishamon-G-Works/devboard) | 開発進捗ボード | ボードを更新（2026-10-26 23:11） | 2026-10-26 23:11 | ✅ |
-| Core-Tec-R-D-KAIZEN | [🔗](https://github.com/Bishamon-G-Works/Core-Tec-R-D-KAIZEN) | 要素技術開発 | NSA40-DR・TWPF-Developのリンク先をBishamon-G-Worksに更新 | 2026-10-27 08:52 | ✅ |
+| **FPL-2026（山崎部長）** | [🔗](https://github.com/Yamazaki-27/FPL-2026) | FUTURE PRODUCT LAB | 検図の着眼: 図面の構成（親子関係）の追加者を磯貝に | 2026-10-28 15:08 | ✅ |
+| BI（廣田） | [🔗](https://github.com/Bishamon-G-Works/Sales-Procurement-Analytics) | オフコンの販売・調達データ分析（KI類似） | 画面は社内ネットワーク（W550 と同じ 10.150.11.x・192.9.200.x）からだけ開けるようにした | 2026-10-28 18:12 | ✅ |
+| 開発進捗ボード（廣田） | [🔗](https://github.com/Bishamon-G-Works/devboard) | 開発進捗ボード | ボードを更新（2026-10-26 23:11） | 2026-10-26 23:11 | ✅ |
+| Core-Tec-R-D-KAIZEN（開発G） | [🔗](https://github.com/Bishamon-G-Works/Core-Tec-R-D-KAIZEN) | 要素技術開発 | NSA40-DR・TWPF-Developのリンク先をBishamon-G-Worksに更新 | 2026-10-27 08:52 | ✅ |
 | Dev-Meeting | [🔗](https://github.com/Bishamon-G-Works/Dev-Meeting) | 開発ミーティング議事録 | Update 責任者会議図面電子化の件.md | 2026-09-03 13:44 | ✅ |
-| matehan-toku-kai-ana | [🔗](https://github.com/HIROTA-KAZUHISA/matehan-toku-kai-ana) |  | Move nisshi_analysis out of OneDrive/デスクトップ path | 2026-10-27 07:57 | ✅ |
+| matehan-toku-kai-ana（廣田） | [🔗](https://github.com/HIROTA-KAZUHISA/matehan-toku-kai-ana) |  | Move nisshi_analysis out of OneDrive/デスクトップ path | 2026-10-27 07:57 | ✅ |
 | Lojis-Tech-Tokyo-2026 | [🔗](https://github.com/Bishamon-G-Works/Lojis-Tech-Tokyo-2026) |  | Add link to TianyuLux selection document | 2026-09-01 07:46 | ✅ |
 | NSA40-DR | [🔗](https://github.com/Bishamon-G-Works/NSA40-DR) | NSA40 DR資料 | コーションシールピクトグラム最新案更新 | 2026-10-27 14:40 | ✅ |
 | Custom-modified-product | [🔗](https://github.com/Bishamon-G-Works/Custom-modified-product) | 特注設計豆知識 | 特注品審議終了一覧 自動更新 2026/10/28 | 2026-10-28 08:01 | ✅ |
