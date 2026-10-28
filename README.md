@@ -6,6 +6,7 @@
 | :--- | :--- | :--- | :--- | :--- | :---: |
 |  |  |  |  |  |  |
 | **FPL-2026** | [🔗](https://github.com/Yamazaki-27/FPL-2026) | FUTURE PRODUCT LAB | 検図の着眼: 図面の構成（親子関係）の追加者を磯貝に | 2026-10-28 15:08 | ✅ |
+| 販売・調達分析ツール | [🔗](https://github.com/Bishamon-G-Works/Sales-Procurement-Analytics) | オフコンの販売・調達データ分析（KI類似） |  |  |  |
 | 開発進捗ボード | [🔗](https://github.com/Bishamon-G-Works/devboard) | 開発進捗ボード | ボードを更新（2026-10-26 23:11） | 2026-10-26 23:11 | ✅ |
 | Core-Tec-R-D-KAIZEN | [🔗](https://github.com/Bishamon-G-Works/Core-Tec-R-D-KAIZEN) | 要素技術開発 | NSA40-DR・TWPF-Developのリンク先をBishamon-G-Worksに更新 | 2026-10-27 08:52 | ✅ |
 | Dev-Meeting | [🔗](https://github.com/Bishamon-G-Works/Dev-Meeting) | 開発ミーティング議事録 | Update 責任者会議図面電子化の件.md | 2026-09-03 13:44 | ✅ |
