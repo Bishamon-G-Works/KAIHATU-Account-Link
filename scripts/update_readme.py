@@ -70,12 +70,19 @@ def parse_existing_rows(readme_path):
     rows = []
     in_table = False
     skip_align = False
+    table_no = -1
+    intro = []  # 表の直前の見出し（## ）・注記（> ）
 
     for line in content.split("\n"):
         # ヘッダー行を検出
         if "| リポジトリ |" in line and "| LINK |" in line:
             in_table = True
             skip_align = True
+            table_no += 1
+            table_intro, intro = intro, []
+            continue
+        if not in_table and (line.startswith("## ") or line.startswith("> ")):
+            intro.append(line)
             continue
         # アライメント行をスキップ
         if skip_align:
@@ -93,6 +100,8 @@ def parse_existing_rows(readme_path):
                     url = url_m.group(1) if url_m else "#"
                     repo = extract_repo_from_url(url)
                     rows.append({
+                        "table": table_no,
+                        "intro": table_intro,
                         "display": display,
                         "link_cell": link_cell,
                         "description": description,
@@ -130,12 +139,17 @@ def generate_readme(status_data, readme_path):
     parts.append(f"🔄 **最終チェック**: {timestamp} (JST) — "
                  f"取得 ✅{success} ❌{error} / {total}件\n")
 
-    # テーブルヘッダー
-    parts.append("| リポジトリ | LINK | 概要 | 最終コミット | 更新時刻 | ステータス |")
-    parts.append("| :--- | :--- | :--- | :--- | :--- | :---: |")
-
     # データ行（リポジトリ・LINK・概要は既存から保持）
+    # 2つ目以降の表は、直前の見出し・注記ごと引き継いで別の表として出す
+    current = None
     for row in rows:
+        if row["table"] != current:
+            if current is not None:
+                parts.append("")
+                parts += [l + "\n" for l in row["intro"]]
+            current = row["table"]
+            parts.append("| リポジトリ | LINK | 概要 | 最終コミット | 更新時刻 | ステータス |")
+            parts.append("| :--- | :--- | :--- | :--- | :--- | :---: |")
         display = row["display"]
         link_cell = row["link_cell"]
         description = row["description"]

@@ -2,7 +2,7 @@
 
 > 📌 各開発テーマは、どこかに統合して（武村TL・前川TLへ）
 
-🔄 **最終チェック**: 2026-10-29 05:53 (JST) — 取得 ✅14 ❌0 / 14件
+🔄 **最終チェック**: 2026-10-29 07:40 (JST) — 取得 ✅15 ❌0 / 15件
 
 | リポジトリ | LINK | 概要 | 最終コミット | 更新時刻 | ステータス |
 | :--- | :--- | :--- | :--- | :--- | :---: |
@@ -21,6 +21,14 @@
 | NNZ-Develop | [🔗](https://github.com/Bishamon-G-Works/NNZ-Develop) | アルネオ マイナーチェンジ | NZR新商品企画書 ペン入れ対応依頼を追加 | 2026-10-06 08:59 | ✅ |
 | MUS40-Almt-Dep | [🔗](https://github.com/Fuchida0324/MUS40-Almt-Dep) | アライメントマルチ4t 事前調査 | Add files via upload | 2026-10-27 15:02 | ✅ |
 | Image-Recognition | [🔗](https://github.com/Mizuno-b/Image-Recognition) | 画像認識技術（Jetson Orin Nano） | Update 2026-07-14_第2回システムズナカシマWEB会議（AI活用検討）.md | 2026-07-15 08:50 | ✅ |
+
+## 🤖 Claude 共有スキル
+
+> 各リポジトリのスキルを claude-shared が集めて配る置き場（上の一覧とは経路が別）。スキルの一覧は [CATALOG.md](https://github.com/Bishamon-G-Works/claude-shared/blob/main/CATALOG.md)
+
+| リポジトリ | LINK | 概要 | 最終コミット | 更新時刻 | ステータス |
+| :--- | :--- | :--- | :--- | :--- | :---: |
+| claude-shared（試験運用） | [🔗](https://github.com/Bishamon-G-Works/claude-shared) | Claude 共有スキル置き場 | 一覧を更新（自動収集） | 2026-10-28 19:23 | ✅ |
 
 ## 凡例
 
