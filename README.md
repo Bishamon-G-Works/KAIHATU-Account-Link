@@ -2,12 +2,12 @@
 
 > 📌 各開発テーマは、どこかに統合して（武村TL・前川TLへ）
 
-🔄 **最終チェック**: 2026-10-29 07:41 (JST) — 取得 ✅15 ❌0 / 15件
+🔄 **最終チェック**: 2026-10-29 09:41 (JST) — 取得 ✅15 ❌0 / 15件
 
 | リポジトリ | LINK | 概要 | 最終コミット | 更新時刻 | ステータス |
 | :--- | :--- | :--- | :--- | :--- | :---: |
 |  |  |  |  |  |  |
-| **FPL-2026（山崎部長）** | [🔗](https://github.com/Yamazaki-27/FPL-2026) | FUTURE PRODUCT LAB | 検図の着眼: 図面の構成（親子関係）の追加者を磯貝に | 2026-10-28 15:08 | ✅ |
+| **FPL-2026（山崎部長）** | [🔗](https://github.com/Yamazaki-27/FPL-2026) | FUTURE PRODUCT LAB | 日報の資産化ログ: 2026-10-28 分（69件） | 2026-10-29 08:36 | ✅ |
 | BI（廣田） | [🔗](https://github.com/Bishamon-G-Works/Sales-Procurement-Analytics) | オフコンの販売・調達データ分析（KI類似） | PC の分担を決め直し、データと設定の置き場所を W550 に移した | 2026-10-28 18:29 | ✅ |
 | 開発進捗ボード（廣田） | [🔗](https://github.com/Bishamon-G-Works/devboard) | 開発進捗ボード | ボードを更新（2026-10-26 23:11） | 2026-10-26 23:11 | ✅ |
 | Core-Tec-R-D-KAIZEN（開発G） | [🔗](https://github.com/Bishamon-G-Works/Core-Tec-R-D-KAIZEN) | 要素技術開発 | NSA40-DR・TWPF-Developのリンク先をBishamon-G-Worksに更新 | 2026-10-27 08:52 | ✅ |
@@ -15,7 +15,7 @@
 | matehan-toku-kai-ana（廣田） | [🔗](https://github.com/HIROTA-KAZUHISA/matehan-toku-kai-ana) |  | Move nisshi_analysis out of OneDrive/デスクトップ path | 2026-10-27 07:57 | ✅ |
 | Lojis-Tech-Tokyo-2026 | [🔗](https://github.com/Bishamon-G-Works/Lojis-Tech-Tokyo-2026) |  | Add link to TianyuLux selection document | 2026-09-01 07:46 | ✅ |
 | NSA40-DR | [🔗](https://github.com/Bishamon-G-Works/NSA40-DR) | NSA40 DR資料 | コーションシールピクトグラム最新案更新 | 2026-10-27 14:40 | ✅ |
-| Custom-modified-product | [🔗](https://github.com/Bishamon-G-Works/Custom-modified-product) | 特注設計豆知識 | 共有スキル置き場（claude-shared）へ配るスキルを指定（試験運用） | 2026-10-28 19:16 | ✅ |
+| Custom-modified-product | [🔗](https://github.com/Bishamon-G-Works/Custom-modified-product) | 特注設計豆知識 | 特注品審議終了一覧 自動更新 2026/10/29 | 2026-10-29 08:01 | ✅ |
 | TWPF-Develop | [🔗](https://github.com/Bishamon-G-Works/TWPF-Develop) | TWPFモデルチェンジ | Add evidence/meetings for meeting minutes | 2026-10-22 09:02 | ✅ |
 | ASC40-Develop | [🔗](https://github.com/Bishamon-G-Works/ASC40-Develop) | ASC40開発資料 | エビデンス更新 | 2026-10-19 09:36 | ✅ |
 | NNZ-Develop | [🔗](https://github.com/Bishamon-G-Works/NNZ-Develop) | アルネオ マイナーチェンジ | NZR新商品企画書 ペン入れ対応依頼を追加 | 2026-10-06 08:59 | ✅ |
