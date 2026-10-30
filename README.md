@@ -2,7 +2,7 @@
 
 > 📌 各開発テーマは、どこかに統合して（武村TL・前川TLへ）
 
-🔄 **最終チェック**: 2026-10-30 11:50 (JST) — 取得 ✅15 ❌0 / 15件
+🔄 **最終チェック**: 2026-10-30 18:48 (JST) — 取得 ✅15 ❌0 / 15件
 
 | リポジトリ | LINK | 概要 | 最終コミット | 更新時刻 | ステータス |
 | :--- | :--- | :--- | :--- | :--- | :---: |
@@ -16,7 +16,7 @@
 | Lojis-Tech-Tokyo-2026 | [🔗](https://github.com/Bishamon-G-Works/Lojis-Tech-Tokyo-2026) |  | Add link to TianyuLux selection document | 2026-09-01 07:46 | ✅ |
 | NSA40-DR | [🔗](https://github.com/Bishamon-G-Works/NSA40-DR) | NSA40 DR資料 | 見解更新 | 2026-10-29 14:45 | ✅ |
 | Custom-modified-product | [🔗](https://github.com/Bishamon-G-Works/Custom-modified-product) | 特注設計豆知識 | 特注品審議終了一覧 自動更新 2026/10/30 | 2026-10-30 08:01 | ✅ |
-| TWPF-Develop | [🔗](https://github.com/Bishamon-G-Works/TWPF-Develop) | TWPFモデルチェンジ | Add evidence/meetings for meeting minutes | 2026-10-22 09:02 | ✅ |
+| TWPF-Develop | [🔗](https://github.com/Bishamon-G-Works/TWPF-Develop) | TWPFモデルチェンジ | Rename site report to 20261030_オリテク調査.md | 2026-10-30 17:57 | ✅ |
 | ASC40-Develop | [🔗](https://github.com/Bishamon-G-Works/ASC40-Develop) | ASC40開発資料 | エビデンス更新 | 2026-10-19 09:36 | ✅ |
 | NNZ-Develop | [🔗](https://github.com/Bishamon-G-Works/NNZ-Develop) | アルネオ マイナーチェンジ | NZR新商品企画書 ペン入れ対応依頼を追加 | 2026-10-06 08:59 | ✅ |
 | MUS40-Almt-Dep | [🔗](https://github.com/Fuchida0324/MUS40-Almt-Dep) | アライメントマルチ4t 事前調査 | Add files via upload | 2026-10-27 15:02 | ✅ |
