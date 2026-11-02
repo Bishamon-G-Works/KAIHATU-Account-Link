@@ -2,12 +2,12 @@
 
 > 📌 各開発テーマは、どこかに統合して（武村TL・前川TLへ）
 
-🔄 **最終チェック**: 2026-11-02 08:58 (JST) — 取得 ✅15 ❌0 / 15件
+🔄 **最終チェック**: 2026-11-02 14:49 (JST) — 取得 ✅15 ❌0 / 15件
 
 | リポジトリ | LINK | 概要 | 最終コミット | 更新時刻 | ステータス |
 | :--- | :--- | :--- | :--- | :--- | :---: |
 |  |  |  |  |  |  |
-| **FPL-2026（山崎部長）** | [🔗](https://github.com/Yamazaki-27/FPL-2026) | FUTURE PRODUCT LAB | 日報の資産化ログ: 2026-11-01 分（10/30 の取り直し＋10/31＋11/01） | 2026-11-02 08:13 | ✅ |
+| **FPL-2026（山崎部長）** | [🔗](https://github.com/Yamazaki-27/FPL-2026) | FUTURE PRODUCT LAB | 特注改造検図: ルールと着眼に物流・自動車・共通の適用区分を入れる（岡部=物流、磯貝=自動車、被ったら共通） | 2026-11-02 13:30 | ✅ |
 | BI（廣田） | [🔗](https://github.com/Bishamon-G-Works/Sales-Procurement-Analytics) | オフコンの販売・調達データ分析（KI類似） | PC の分担を決め直し、データと設定の置き場所を W550 に移した | 2026-10-28 18:29 | ✅ |
 | 開発進捗ボード（廣田） | [🔗](https://github.com/Bishamon-G-Works/devboard) | 開発進捗ボード | ボードを更新（2026-10-26 23:11） | 2026-10-26 23:11 | ✅ |
 | Core-Tec-R-D-KAIZEN（開発G） | [🔗](https://github.com/Bishamon-G-Works/Core-Tec-R-D-KAIZEN) | 要素技術開発 | NSA40-DR・TWPF-Developのリンク先をBishamon-G-Worksに更新 | 2026-10-27 08:52 | ✅ |
@@ -16,7 +16,7 @@
 | Lojis-Tech-Tokyo-2026 | [🔗](https://github.com/Bishamon-G-Works/Lojis-Tech-Tokyo-2026) |  | Add link to TianyuLux selection document | 2026-09-01 07:46 | ✅ |
 | NSA40-DR | [🔗](https://github.com/Bishamon-G-Works/NSA40-DR) | NSA40 DR資料 | 見解更新 | 2026-10-29 14:45 | ✅ |
 | Custom-modified-product | [🔗](https://github.com/Bishamon-G-Works/Custom-modified-product) | 特注設計豆知識 | 特注品審議終了一覧 自動更新 2026/11/02 | 2026-11-02 07:24 | ✅ |
-| TWPF-Develop | [🔗](https://github.com/Bishamon-G-Works/TWPF-Develop) | TWPFモデルチェンジ | Identify Orion Techno as ALTIA in site report | 2026-11-02 08:32 | ✅ |
+| TWPF-Develop | [🔗](https://github.com/Bishamon-G-Works/TWPF-Develop) | TWPFモデルチェンジ | Add PDF and slide images of MC planning background deck to … | 2026-11-02 12:42 | ✅ |
 | ASC40-Develop | [🔗](https://github.com/Bishamon-G-Works/ASC40-Develop) | ASC40開発資料 | エビデンス更新 | 2026-10-19 09:36 | ✅ |
 | NNZ-Develop | [🔗](https://github.com/Bishamon-G-Works/NNZ-Develop) | アルネオ マイナーチェンジ | NZR新商品企画書 ペン入れ対応依頼を追加 | 2026-10-06 08:59 | ✅ |
 | MUS40-Almt-Dep | [🔗](https://github.com/Fuchida0324/MUS40-Almt-Dep) | アライメントマルチ4t 事前調査 | Add files via upload | 2026-10-27 15:02 | ✅ |
