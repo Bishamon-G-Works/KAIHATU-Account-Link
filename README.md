@@ -2,12 +2,12 @@
 
 > 📌 各開発テーマは、どこかに統合して（武村TL・前川TLへ）
 
-🔄 **最終チェック**: 2026-11-02 14:49 (JST) — 取得 ✅15 ❌0 / 15件
+🔄 **最終チェック**: 2026-11-02 23:09 (JST) — 取得 ✅15 ❌0 / 15件
 
 | リポジトリ | LINK | 概要 | 最終コミット | 更新時刻 | ステータス |
 | :--- | :--- | :--- | :--- | :--- | :---: |
 |  |  |  |  |  |  |
-| **FPL-2026（山崎部長）** | [🔗](https://github.com/Yamazaki-27/FPL-2026) | FUTURE PRODUCT LAB | 特注改造検図: ルールと着眼に物流・自動車・共通の適用区分を入れる（岡部=物流、磯貝=自動車、被ったら共通） | 2026-11-02 13:30 | ✅ |
+| **FPL-2026（山崎部長）** | [🔗](https://github.com/Yamazaki-27/FPL-2026) | FUTURE PRODUCT LAB | 特注改造検図: R-013（仕様図の図番は見積No.-0211-01）と着眼を追加、Z2-1269・S-3041 の記… | 2026-11-02 15:38 | ✅ |
 | BI（廣田） | [🔗](https://github.com/Bishamon-G-Works/Sales-Procurement-Analytics) | オフコンの販売・調達データ分析（KI類似） | PC の分担を決め直し、データと設定の置き場所を W550 に移した | 2026-10-28 18:29 | ✅ |
 | 開発進捗ボード（廣田） | [🔗](https://github.com/Bishamon-G-Works/devboard) | 開発進捗ボード | ボードを更新（2026-10-26 23:11） | 2026-10-26 23:11 | ✅ |
 | Core-Tec-R-D-KAIZEN（開発G） | [🔗](https://github.com/Bishamon-G-Works/Core-Tec-R-D-KAIZEN) | 要素技術開発 | NSA40-DR・TWPF-Developのリンク先をBishamon-G-Worksに更新 | 2026-10-27 08:52 | ✅ |
