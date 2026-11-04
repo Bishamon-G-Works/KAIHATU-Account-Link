@@ -20,6 +20,7 @@
 | ASC40-Develop | [🔗](https://github.com/Bishamon-G-Works/ASC40-Develop) | ASC40開発資料 | エビデンス更新 | 2026-10-19 09:36 | ✅ |
 | NNZ-Develop | [🔗](https://github.com/Bishamon-G-Works/NNZ-Develop) | アルネオ マイナーチェンジ | NZR新商品企画書 ペン入れ対応依頼を追加 | 2026-10-06 08:59 | ✅ |
 | MUS40-Almt-Dep | [🔗](https://github.com/Fuchida0324/MUS40-Almt-Dep) | アライメントマルチ4t 事前調査 | Add files via upload | 2026-10-27 15:02 | ✅ |
+| ABMD15 | [🔗](https://github.com/Bishamon-G-Works/ABMD15) | ABMD15開発資料 | Add files via upload | 2026-11-03 15:02 | ✅ |
 | Image-Recognition | [🔗](https://github.com/Mizuno-b/Image-Recognition) | 画像認識技術（Jetson Orin Nano） | Update 2026-07-14_第2回システムズナカシマWEB会議（AI活用検討）.md | 2026-07-15 08:50 | ✅ |
 
 ## 🤖 Claude 共有スキル
