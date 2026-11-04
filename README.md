@@ -2,7 +2,7 @@
 
 > 📌 各開発テーマは、どこかに統合して（武村TL・前川TLへ）
 
-🔄 **最終チェック**: 2026-11-04 20:27 (JST) — 取得 ✅16 ❌0 / 16件
+🔄 **最終チェック**: 2026-11-05 03:48 (JST) — 取得 ✅16 ❌0 / 16件
 
 | リポジトリ | LINK | 概要 | 最終コミット | 更新時刻 | ステータス |
 | :--- | :--- | :--- | :--- | :--- | :---: |
@@ -20,7 +20,7 @@
 | ASC40-Develop | [🔗](https://github.com/Bishamon-G-Works/ASC40-Develop) | ASC40開発資料 | エビデンス更新 | 2026-10-19 09:36 | ✅ |
 | NNZ-Develop | [🔗](https://github.com/Bishamon-G-Works/NNZ-Develop) | アルネオ マイナーチェンジ | NZR新商品企画書 ペン入れ対応依頼を追加 | 2026-10-06 08:59 | ✅ |
 | MUS40-Almt-Dep | [🔗](https://github.com/Fuchida0324/MUS40-Almt-Dep) | アライメントマルチ4t 事前調査 | Add files via upload | 2026-10-27 15:02 | ✅ |
-| ABMD15 | [🔗](https://github.com/Bishamon-G-Works/ABMD15) | ABMD15開発資料 | doc:sakuraフォルダの資料を目次に統合し、テーマ別索引と相互リンクを追加 | 2026-11-04 09:17 | ✅ |
+| ABMD15 | [🔗](https://github.com/Bishamon-G-Works/ABMD15) | ABMD15開発資料 | doc:firmwareのアーキテクチャ図（.omm）を追加 | 2026-11-04 20:41 | ✅ |
 | Image-Recognition | [🔗](https://github.com/Mizuno-b/Image-Recognition) | 画像認識技術（Jetson Orin Nano） | Update 2026-07-14_第2回システムズナカシマWEB会議（AI活用検討）.md | 2026-07-15 08:50 | ✅ |
 
 ## 🤖 Claude 共有スキル
