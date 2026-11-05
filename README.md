@@ -7,7 +7,7 @@
 | リポジトリ | LINK | 概要 | 最終コミット | 更新時刻 | ステータス |
 | :--- | :--- | :--- | :--- | :--- | :---: |
 |  |  |  |  |  |  |
-| **FPL-2026（山崎部長）** | [🔗](https://github.com/Yamazaki-27/FPL-2026) | FUTURE PRODUCT LAB | 節の見出しを「YYYY-MM-DD 発信者 ── 題」に統一（3,176本・リンク604本を張り替え） | 2026-11-05 08:24 | ✅ |
+| **FPL-2026（山崎部長）** | [🔗](https://github.com/Bishamon-G-Works/FPL-2026) | FUTURE PRODUCT LAB | 節の見出しを「YYYY-MM-DD 発信者 ── 題」に統一（3,176本・リンク604本を張り替え） | 2026-11-05 08:24 | ✅ |
 | BI（廣田） | [🔗](https://github.com/Bishamon-G-Works/Sales-Procurement-Analytics) | オフコンの販売・調達データ分析（KI類似） | PC の分担を決め直し、データと設定の置き場所を W550 に移した | 2026-10-28 18:29 | ✅ |
 | 開発進捗ボード（廣田） | [🔗](https://github.com/Bishamon-G-Works/devboard) | 開発進捗ボード | ボードを更新（2026-11-04 16:55） | 2026-11-04 16:55 | ✅ |
 | Core-Tec-R-D-KAIZEN（開発G） | [🔗](https://github.com/Bishamon-G-Works/Core-Tec-R-D-KAIZEN) | 要素技術開発 | NSA40-DR・TWPF-Developのリンク先をBishamon-G-Worksに更新 | 2026-10-27 08:52 | ✅ |
@@ -19,9 +19,9 @@
 | TWPF-Develop | [🔗](https://github.com/Bishamon-G-Works/TWPF-Develop) | TWPFモデルチェンジ | Add Orion Techno site survey 3D results (CAD-style illustra… | 2026-11-03 18:04 | ✅ |
 | ASC40-Develop | [🔗](https://github.com/Bishamon-G-Works/ASC40-Develop) | ASC40開発資料 | エビデンス更新 | 2026-10-19 09:36 | ✅ |
 | NNZ-Develop | [🔗](https://github.com/Bishamon-G-Works/NNZ-Develop) | アルネオ マイナーチェンジ | NZR新商品企画書 ペン入れ対応依頼を追加 | 2026-10-06 08:59 | ✅ |
-| MUS40-Almt-Dep | [🔗](https://github.com/Fuchida0324/MUS40-Almt-Dep) | アライメントマルチ4t 事前調査 | Add files via upload | 2026-10-27 15:02 | ✅ |
+| MUS40-Almt-Dep | [🔗](https://github.com/Bishamon-G-Works/MUS40-Almt-Dep) | アライメントマルチ4t 事前調査 | Add files via upload | 2026-10-27 15:02 | ✅ |
 | ABMD15 | [🔗](https://github.com/Bishamon-G-Works/ABMD15) | ABMD15開発資料 | doc:firmwareのアーキテクチャ図（.omm）を追加 | 2026-11-04 20:41 | ✅ |
-| Image-Recognition | [🔗](https://github.com/Mizuno-b/Image-Recognition) | 画像認識技術（Jetson Orin Nano） | Update 2026-07-14_第2回システムズナカシマWEB会議（AI活用検討）.md | 2026-07-15 08:50 | ✅ |
+| Image-Recognition | [🔗](https://github.com/Bishamon-G-Works/Image-Recognition) | 画像認識技術（Jetson Orin Nano） | Update 2026-07-14_第2回システムズナカシマWEB会議（AI活用検討）.md | 2026-07-15 08:50 | ✅ |
 
 ## 🤖 Claude 共有スキル
 
