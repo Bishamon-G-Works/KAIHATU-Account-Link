@@ -2,19 +2,19 @@
 
 > 📌 各開発テーマは、どこかに統合して（武村TL・前川TLへ）
 
-🔄 **最終チェック**: 2026-11-05 08:59 (JST) — 取得 ✅16 ❌0 / 16件
+🔄 **最終チェック**: 2026-11-05 15:31 (JST) — 取得 ✅15 ❌1 / 16件
 
 | リポジトリ | LINK | 概要 | 最終コミット | 更新時刻 | ステータス |
 | :--- | :--- | :--- | :--- | :--- | :---: |
 |  |  |  |  |  |  |
-| **FPL-2026（山崎部長）** | [🔗](https://github.com/Bishamon-G-Works/FPL-2026) | FUTURE PRODUCT LAB | 節の見出しを「YYYY-MM-DD 発信者 ── 題」に統一（3,176本・リンク604本を張り替え） | 2026-11-05 08:24 | ✅ |
+| **FPL-2026（山崎部長）** | [🔗](https://github.com/Bishamon-G-Works/FPL-2026) | FUTURE PRODUCT LAB | 材手抽出：初期設定 config.json と共有の作業フォルダ（\\W550\Bishamon\claude_wor… | 2026-11-05 12:50 | ✅ |
 | BI（廣田） | [🔗](https://github.com/Bishamon-G-Works/Sales-Procurement-Analytics) | オフコンの販売・調達データ分析（KI類似） | PC の分担を決め直し、データと設定の置き場所を W550 に移した | 2026-10-28 18:29 | ✅ |
 | 開発進捗ボード（廣田） | [🔗](https://github.com/Bishamon-G-Works/devboard) | 開発進捗ボード | ボードを更新（2026-11-04 16:55） | 2026-11-04 16:55 | ✅ |
 | Core-Tec-R-D-KAIZEN（開発G） | [🔗](https://github.com/Bishamon-G-Works/Core-Tec-R-D-KAIZEN) | 要素技術開発 | NSA40-DR・TWPF-Developのリンク先をBishamon-G-Worksに更新 | 2026-10-27 08:52 | ✅ |
 | Dev-Meeting | [🔗](https://github.com/Bishamon-G-Works/Dev-Meeting) | 開発ミーティング議事録 | Update 責任者会議図面電子化の件.md | 2026-09-03 13:44 | ✅ |
 | matehan-toku-kai-ana（廣田） | [🔗](https://github.com/HIROTA-KAZUHISA/matehan-toku-kai-ana) |  | Move nisshi_analysis out of OneDrive/デスクトップ path | 2026-10-27 07:57 | ✅ |
-| Lojis-Tech-Tokyo-2026 | [🔗](https://github.com/Bishamon-G-Works/Lojis-Tech-Tokyo-2026) |  | Add link to TianyuLux selection document | 2026-09-01 07:46 | ✅ |
-| NSA40-DR | [🔗](https://github.com/Bishamon-G-Works/NSA40-DR) | NSA40 DR資料 | コーション更新 | 2026-11-05 08:51 | ✅ |
+| Lojis-Tech-Tokyo-2026 | [🔗](https://github.com/Bishamon-G-Works/Lojis-Tech-Tokyo-2026) |  | HTTPエラー (不明) | — | ❌ |
+| NSA40-DR | [🔗](https://github.com/Bishamon-G-Works/NSA40-DR) | NSA40 DR資料 | コーション改定 | 2026-11-05 10:07 | ✅ |
 | Custom-modified-product | [🔗](https://github.com/Bishamon-G-Works/Custom-modified-product) | 特注設計豆知識 | 特注品審議終了一覧 自動更新 2026/11/05 | 2026-11-05 08:01 | ✅ |
 | TWPF-Develop | [🔗](https://github.com/Bishamon-G-Works/TWPF-Develop) | TWPFモデルチェンジ | Add Orion Techno site survey 3D results (CAD-style illustra… | 2026-11-03 18:04 | ✅ |
 | ASC40-Develop | [🔗](https://github.com/Bishamon-G-Works/ASC40-Develop) | ASC40開発資料 | エビデンス更新 | 2026-10-19 09:36 | ✅ |
@@ -29,7 +29,7 @@
 
 | リポジトリ | LINK | 概要 | 最終コミット | 更新時刻 | ステータス |
 | :--- | :--- | :--- | :--- | :--- | :---: |
-| claude-shared（試験運用） | [🔗](https://github.com/Bishamon-G-Works/claude-shared) | Claude 共有スキル置き場 | 一覧のリポジトリ別の見出しを外し、表を1つにする | 2026-11-04 19:47 | ✅ |
+| claude-shared（試験運用） | [🔗](https://github.com/Bishamon-G-Works/claude-shared) | Claude 共有スキル置き場 | 一覧を更新（手動収集） | 2026-11-05 10:20 | ✅ |
 
 ## 凡例
 
